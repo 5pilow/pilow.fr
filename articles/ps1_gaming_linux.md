@@ -62,5 +62,12 @@ Points négatifs
 
 Bonus
 -----
-Niveau réalisé sur l'émulateur :
+Niveau réalisé sur l'émulateur (j'ai raté la capture du son mais il est bien présent en jeu) :
 <iframe width="560" height="315" src="https://www.youtube.com/embed/CWPQp3rXmZ8" frameborder="0" allowfullscreen></iframe>
+
+Références
+----------
+- [Site du project PCSX Reloaded](http://pcsxr.codeplex.com/)
+- [Page Wikipédia de l'émulateur PCSX Reloaded](https://en.wikipedia.org/wiki/PCSX-Reloaded)
+- [Documentation de PCSX Realoaded sur ubuntu-fr.org](https://doc.ubuntu-fr.org/pcsx-reloaded)
+- [Site de Memory Converter](http://www.aldostools.org/memcards.html)

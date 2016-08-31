@@ -23,6 +23,10 @@ a {
 	font-weight: bold;
 }
 
+.article .content {
+	margin-bottom: 150px;
+}
+
 .article .tags {
 	margin-bottom: 10px;
 }
