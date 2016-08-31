@@ -1,0 +1,49 @@
+html {
+	font-family: 'Roboto', sans-serif;
+}
+body {
+	padding: 0 10px;
+}
+h1 {
+	margin: 0;
+	margin-bottom: 10px;
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+
+#page {
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+.articles .article .title {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.article .tags {
+	margin-bottom: 10px;
+}
+
+.article .tags .tag {
+	margin-right: 4px;
+	display: inline-block;
+	background: #0088D6;
+	border-radius: 2px;
+	color: white;
+	padding: 5px;
+}
+
+.article .content img {
+	max-width: 500px;
+	display: block;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.article a {
+	color: #0088D6;
+	font-weight: bold;
+}

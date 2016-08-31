@@ -1,0 +1,10 @@
+<div class='articles'>
+
+	<a href='/article/{{ article.id }}' ng-repeat='article in articles'>
+		<div class='article'>
+			<div class='title'>{{ article.title }}</div>
+			<div class='preview'>{{ article.preview }}...</div>
+			{{ article.date | date }}
+		</div>
+	</a>
+</div>

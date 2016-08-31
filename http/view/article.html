@@ -1,0 +1,11 @@
+<div class='article' ng-show='!loading'>
+
+	<h1 class='title'>{{ article.title }}</h1>
+
+	<div class='tags'>
+		<a class='tag' href='/tag/{{ tag }}' ng-repeat='tag in article.tags'>{{ tag }}</a>
+	</div>
+	<div>{{ article.date | date }}</div>
+
+	<div class='content' ng-bind-html='article.content | markdown'></div>
+</div>
