@@ -7,7 +7,7 @@ class ArticleController {
 		$articles = json_decode(file_get_contents("../articles/articles.json"));
 
 		$articles = array_map(function($article) {
-			$article->preview = substr(file_get_contents('../articles/' . $article->id . '.md'), 0, 100);
+			$article->preview = substr(file_get_contents('../http/articles/' . $article->id . '/' . $article->id . '.md'), 0, 100);
 			return $article;
 		}, array_slice($articles, 0, 10));
 
@@ -20,7 +20,7 @@ class ArticleController {
 
 		foreach ($articles as $article) {
 			if ($article->id == $id) {
-				$article->content = file_get_contents("../articles/" . $id . '.md');
+				$article->content = file_get_contents("../http/articles/" . $id . '/' . $article->id . '.md');
 				return Response::success(["article" => $article]);
 			}
 		}
