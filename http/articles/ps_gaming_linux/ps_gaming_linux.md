@@ -27,14 +27,19 @@ L'image du bios est à mettre dans le dossier `~/.pcsx/bios` :
 
 <img src='bios_location.png'>
 
-Ensuite, allez dans `Configuration` > `Plugins & BIOS` et sélectionner le bon fichier :
+Ensuite, allez dans `Configuration` > `Plugins & BIOS...` et sélectionner le bon fichier :
 
 <img src='bios_settings.png'>
 
 ### Lancement d'un jeu
-Choisissez un fichier : `.bin`, `.img`, `.mdf`, `.iso` :
 
+PCSX supporte des images de jeux PlayStation au format `.bin`, `.img`, `.mdf`, `.iso`.
+Pour en obtenir, recherchez sur Internet comment dumper vos jeux dans le format que vous souhaitez.
+
+Une fois avoir obtenu l'image de votre jeu, allez dans `File` > `Run ISO...` et sélectionnez le bon fichier (ici au format `.bin`) :
 <img src='iso.png' title="Sélection d'un jeu">
+
+Si tout se passe bien le jeu démarre :
 
 <img src='crash.png'>
 
