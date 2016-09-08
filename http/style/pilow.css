@@ -32,7 +32,7 @@ a {
 
 #page {
 	padding: 20px;
-	margin-bottom: 70px;
+	margin-bottom: 20px;
 	background: #f0f0f0;
 	border-radius: 4px;
 	-moz-box-shadow: 0px 0px 20px 5px #000;
@@ -73,4 +73,12 @@ a {
 .article a {
 	color: #0088D6;
 	font-weight: bold;
+}
+
+#footer {
+	text-align: center;
+}
+
+#footer img {
+	width: 40px;
 }
